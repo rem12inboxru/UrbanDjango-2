@@ -19,7 +19,7 @@ from django.urls import path
 
 
 
-from task3.views import render_start, index_basket, index_games
+from task4.views import render_start, index_basket, index_games
 
 urlpatterns = [
     path('admin/', admin.site.urls),
